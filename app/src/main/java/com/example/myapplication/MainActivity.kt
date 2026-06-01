@@ -36,8 +36,9 @@ class MainActivity : ComponentActivity() {
                 Alignment.End
             ) {
                 var vlrDoTextField by remember { mutableStateOf("vlrIni")}
-                Text("asd")
-                Text("asd")
+                Text("Ada Lovelace")
+                Text("Grace Hopper")
+                Text("Charles Babbage")
                 TextField(vlrDoTextField, onValueChange = {
                     vlrDoTextField = it
             })
